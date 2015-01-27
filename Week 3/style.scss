@@ -1,0 +1,112 @@
+html {
+  -webkit-linear-gradient: bottom, #496D89 24%, #496D89 86%;
+  -moz-linear-gradient: bottom, #496D89 24%, #496D89 86%;
+  -ms-linear-gradient: bottom, #496D89 24%, #496D89 86%;
+  linear-gradient: bottom, #496D89 24%, #496D89 86%;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  width: 50em;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header,
+article,
+footer {
+  background-color: #294F6D;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  width: 640px;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+header h1 {
+  font-family: "Princess Sofia", cursive;
+  text-align: center;
+  font-size: 24px;
+}
+
+nav {
+  width: 640px;
+  clear: left;
+  float: left;
+  overflow: hidden;
+}
+nav ul {
+  height: 40px;
+  clear: left;
+  float: left;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+nav ul li a {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  display: block;
+  line-height: 30px;
+  padding: 0 20px 0 20px;
+  margin: 0 10px 0 10px;
+  -webkit-linear-gradient: bottom, #718EA4 24%, #5c95ff 86%;
+  -moz-linear-gradient: bottom, #718EA4 24%, #5c95ff 86%;
+  -ms-linear-gradient: bottom, #718EA4 24%, #5c95ff 86%;
+  linear-gradient: bottom, #718EA4 24%, #5c95ff 86%;
+  color: #042037;
+  text-decoration: none;
+  border: 2px outset #ffffff;
+}
+nav ul li a:hover {
+  -webkit-linear-gradient: bottom, #5c95ff 24%, #6caeff 86%;
+  -moz-linear-gradient: bottom, #5c95ff 24%, #6caeff 86%;
+  -ms-linear-gradient: bottom, #5c95ff 24%, #6caeff 86%;
+  linear-gradient: bottom, #5c95ff 24%, #6caeff 86%;
+}
+
+article {
+  float: left;
+  line-height: 140%;
+}
+article img {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  float: right;
+  border: 2px solid #000;
+  margin-left: 14px;
+}
+article h2, article h3 {
+  font-family: "Princess Sofia", cursive;
+  font-size: 22.8px;
+  line-height: 140%;
+}
+article h3 {
+  font-size: 19.2px;
+  margin-top: 14px;
+}
+article p {
+  margin-bottom: 30px;
+}
+
+footer {
+  float: left;
+  text-align: center;
+}
