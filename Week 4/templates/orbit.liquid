@@ -1,0 +1,89 @@
+{% block content %}
+
+<div class="row">
+	<div class="small-3 small-centered columns">	
+		<h2>Orbit Slider</h2>		
+	</div>
+	
+</div>
+
+<!--slider-->
+	<ul class="example-orbit" data-orbit>
+  		<li>
+  			{{ "gal2.jpg" | asset_url | image_tag }}
+
+    		 
+   		 	<div class="orbit-caption">
+     	 	Caption One.
+    		</div>
+  		</li>
+  		<li class="active">
+    		{{ "gal4.jpg" | asset_url | image_tag }}
+   			 <div class="orbit-caption">
+     		 Caption Two.
+   			 </div>
+  		</li>
+ 		<li>
+    		{{ "gal5.jpg" | asset_url | image_tag }}
+    		<div class="orbit-caption">
+      		Caption Three.
+    		</div>
+  		</li>
+	</ul>
+
+
+<!--endslider-->
+
+
+<div class="row">
+	<div class="small-8 columns">
+		<h1>Heading</h1>
+	</div>
+</div>
+	
+<div class="row">
+
+	<div class="small-8 columns">
+		{{ 5 | lorem_ipsum:'p' }}
+	</div>
+	<div class="small-4 columns">
+		<div class="panel">
+			<div class="row"><div class="small-6 small-centered columns"><h2>Adds</h2></div></div>
+			
+			<!--content slider-->	
+			<ul class="example-orbit-content" data-orbit>
+  				<li data-orbit-slide="headline-1">
+   				<div>
+     				 <h3>Add1</h3>
+      				 {{ 1 | lorem_ipsum:'p' }}
+   				 </div>
+ 				 </li>
+ 				 
+ 				 <li data-orbit-slide="headline-2">
+   				 <div>
+     				 <h3>Add2</h3>
+      				 {{ 1 | lorem_ipsum:'p' }}
+
+   				</div>
+  				</li>
+  				
+  				<li data-orbit-slide="headline-3">
+   				<div>
+     				<h3>Add3</h3>
+      				 {{ 1 | lorem_ipsum:'p' }}
+    			</div>
+ 				 </li>
+			</ul>
+			
+			
+			<!--end: content slider-->	
+ 			
+		</div>
+		
+	</div>
+	
+
+</div>
+
+
+{% endblock %}

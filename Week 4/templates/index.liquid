@@ -1,0 +1,32 @@
+{% block content %}
+ 
+ 
+<div class="row">
+	<div class="small-12 columns">	
+		{{ "front.jpg" | asset_url | image_tag }}
+	</div>
+	
+</div>
+
+<div class="row">
+	<div class="small-8 columns">
+		<h1>Heading</h1>
+	</div>
+</div>
+	
+<div class="row">
+
+	<div class="small-8 columns">
+		{{ 5 | lorem_ipsum:'p' }}
+	</div>
+	<div class="small-4 columns">
+		<div class="panel">
+ 			{{ 2 | lorem_ipsum:'p' }}
+		</div>
+		
+	</div>
+	
+
+</div>
+
+{% endblock %}
