@@ -1,0 +1,56 @@
+body {
+	background-image:url(../img/background.jpg);
+	background-size: cover;
+
+}
+
+nav.top-bar {
+	text-align:center;
+}
+
+section.top-bar-section {
+	display: inline-block;
+}
+
+.main {
+	
+	padding: 1em;
+	font-size:10px;
+	}
+
+
+.side {
+	h3{
+		
+		color: white;
+		font-style: italic;
+	}
+	background-color: transparent;
+	padding: 1em;
+	color: white;
+	font-size:10px;
+}
+.side .side{
+	background-color: #2BA3BB;
+}
+.ab{
+	background-color: white;
+	
+	h3{
+		color: #EEB743;
+		padding-top: 1em;
+	}
+	
+}
+.tm{
+	margin-top:1em !important;
+}
+.hd{
+	color: #00B7C9;
+	font-weight: bold;
+}
+
+footer{
+color: white;
+font-weight:bold;
+}
